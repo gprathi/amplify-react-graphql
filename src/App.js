@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Welcome to Amplify. This is a test.
+          Welcome to Amplify. This is a test 1.
         </p>
       </header>
     </div>
