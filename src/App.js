@@ -1,5 +1,5 @@
 import './App.css';
-
+import { LeadCreateForm } from './ui-components';
 function App() {
   return (
     <div className="App">
@@ -8,6 +8,7 @@ function App() {
           Welcome to Amplify. This is a test 2.
         </p>
       </header>
+      <LeadCreateForm />
     </div>
   );
 }

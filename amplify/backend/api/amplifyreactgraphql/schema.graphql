@@ -1,0 +1,16 @@
+enum VACATIONTYPE {
+  CRUISE
+  ALL_INCLUSIVE
+  NATIONAL_PARKS
+  EUROPE
+}
+
+type Lead @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  address: String
+  email: String!
+  phoneNumber: String
+  typeOfVacation: VACATIONTYPE
+}
