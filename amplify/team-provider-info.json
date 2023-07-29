@@ -9,14 +9,22 @@
       "UnauthRoleName": "amplify-amplify9b6c5d9066ec4-staging-05722-unauthRole",
       "StackName": "amplify-amplify9b6c5d9066ec4-staging-05722",
       "StackId": "arn:aws:cloudformation:us-east-1:145554831595:stack/amplify-amplify9b6c5d9066ec4-staging-05722/e1e8fa10-28f3-11ee-9c8a-0a35cae1ea77",
-      "AmplifyAppId": "d3u621bglu6eks"
+      "AmplifyAppId": "d3u621bglu6eks",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplify9b6c5d9066ec4-staging-05722-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "amplifyreactgraphql7057ecf1": {}
       },
       "api": {
-        "amplifyreactgraphql": {}
+        "amplifyreactgraphql": {},
+        "hotelapi": {}
+      },
+      "function": {
+        "HotelSearch": {
+          "deploymentBucketName": "amplify-amplify9b6c5d9066ec4-staging-05722-deployment",
+          "s3Key": "amplify-builds/HotelSearch-446c38546f5276774d54-build.zip"
+        }
       }
     }
   }

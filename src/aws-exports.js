@@ -7,6 +7,13 @@ const awsmobile = {
     "aws_appsync_region": "us-east-1",
     "aws_appsync_authenticationType": "API_KEY",
     "aws_appsync_apiKey": "da2-3tdpamzi6zg6xf7go6i3nhbxym",
+    "aws_cloud_logic_custom": [
+        {
+            "name": "hotelapi",
+            "endpoint": "https://owu4ku1e8a.execute-api.us-east-1.amazonaws.com/staging",
+            "region": "us-east-1"
+        }
+    ],
     "aws_cognito_identity_pool_id": "us-east-1:927460ca-b271-4a67-afa1-8a1a4852cbf9",
     "aws_cognito_region": "us-east-1",
     "aws_user_pools_id": "us-east-1_xjKYcEqz0",

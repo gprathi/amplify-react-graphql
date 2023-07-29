@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 import { studioTheme } from './ui-components';
+import { BrowserRouter } from "react-router-dom";
 
 import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
@@ -15,7 +16,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={studioTheme}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 );
