@@ -1,0 +1,7 @@
+.search-view {
+    
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/hotel/search/{city}": {
+      "name": "/hotel/search/{city}",
+      "lambdaFunction": "HotelSearch",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

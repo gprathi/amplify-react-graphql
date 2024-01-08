@@ -33,6 +33,7 @@
     
     img {
       max-width: 150px;
+      max-height: 100px;
       width: 100%;
       padding: 0.5rem;
       border: 5px solid #555;
@@ -96,6 +97,19 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+  }
+
+  .logo-container {
+    width: 50px; /* Set the width of the container */
+    height: 50px; /* Set the height of the container */
+    border: 1px green #ccc; /* Optional: Add a border for visualization */
+  }
+
+  /* Style to set the dimensions of the image inside the container */
+  .logo-container img {
+    width: 100px; /* Make the image take up 100% of the width of the container */
+    height: 75px; /* Make the image take up 100% of the height of the container */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
   }
   
   
